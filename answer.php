@@ -33,9 +33,9 @@
         <div id="answer">
           <?php
           // input
-          $aBaseOfTrapezoid = (round ($_GET["a-base-of-trapezoid"], 2));
-          $bBaseOfTrapezoid = (round($_GET["b-base-of-trapezoid"], 2));
-          $heightOfTrapezoid = (round ($_GET["height-of-trapezoid"], 2));
+          $aBaseOfTrapezoid = (float) $_GET["a-base-of-trapezoid"];
+          $bBaseOfTrapezoid = (float) $_GET["b-base-of-trapezoid"];
+          $heightOfTrapezoid = (float) $_GET["height-of-trapezoid"];
 
           // process
           $area = (($aBaseOfTrapezoid + $bBaseOfTrapezoid) / 2) * $heightOfTrapezoid;
