@@ -44,6 +44,10 @@
   padding-top: 5pt;
 }
 
+.page-content-return {
+  padding-top: 10pt;
+}
+
 body {
   background-color: rgb(246 245 209);
 }
