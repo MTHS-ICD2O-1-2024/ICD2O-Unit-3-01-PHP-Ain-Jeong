@@ -27,7 +27,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/trapezoid_area.png" alt="Area of Trapezoid image" width="250" />
+        <img src="./images/trapezoid_area.png" alt="Area of Trapezoid image" width="500" />
       </div>
       <br />
       <div class="page-content-heading">Formula</div>
@@ -57,6 +57,8 @@
             <label class="mdl-textfield__label" for="height-of-trapezoid">height of trapezoid (mm)</label>
             <span class="mdl-textfield__error">Input is not a number.</span>
           </div>
+          <label class="page-content">mm</label>
+          <br />
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
             type="submit">
