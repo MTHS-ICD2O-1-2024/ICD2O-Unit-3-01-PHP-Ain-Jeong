@@ -38,7 +38,7 @@
           $heightOfTrapezoid = $_GET["height-of-trapezoid"];
 
           // process
-          $area = (($aBaseOfTrapezoid + $bBaseOfTrapezoid) / 2) * $heightOfTrapezoid;
+          $area = ($aBaseOfTrapezoid + $bBaseOfTrapezoid) / 2 * $heightOfTrapezoid;
 
           // output
           echo "The area of your Trapezoid is " . $area . " cm².";
