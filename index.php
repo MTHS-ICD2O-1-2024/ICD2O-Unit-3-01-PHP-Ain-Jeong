@@ -27,7 +27,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/00000000000" alt="Area of Trapezoid image" width="250" />
+        <img src="./images/trapezoid_area.png" alt="Area of Trapezoid image" width="250" />
       </div>
       <br />
       <div class="page-content-heading">Formula</div>
