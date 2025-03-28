@@ -33,15 +33,15 @@
         <div id="answer">
           <?php
           // input
-          $aBaseOfTrapezoid = (float) $_GET["a-base-of-trapezoid"];
-          $bBaseOfTrapezoid = (float) $_GET["b-base-of-trapezoid"];
-          $heightOfTrapezoid = (float) $_GET["height-of-trapezoid"];
+          $aBaseOfTrapezoid = $_GET["a-base-of-trapezoid"];
+          $bBaseOfTrapezoid = $_GET["b-base-of-trapezoid"];
+          $heightOfTrapezoid = $_GET["height-of-trapezoid"];
 
           // process
           $area = (($aBaseOfTrapezoid + $bBaseOfTrapezoid) / 2) * $heightOfTrapezoid;
 
           // output
-          echo "The area of your Trapezoid is " . (round($area, 2)) . " cm².";
+          echo "The area of your Trapezoid is " . (round($area, 2)) . " mm².";
           ?>
         </div>
       </div>

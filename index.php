@@ -37,7 +37,7 @@
         <form action="answer.php" method="GET">
           <label class="page-content">a base: </label>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="a-base-of-trapezoid" />
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="a-base-of-trapezoid" />
             <label class="mdl-textfield__label" for="a-base-of-trapezoid">a base of trapezoid (mm)</label>
             <span class="mdl-textfield__error">Input is not a number.</span>
           </div>
@@ -45,7 +45,7 @@
           <br />
           <label class="page-content">b base: </label>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="b-base-of-trapezoid" />
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="b-base-of-trapezoid" />
             <label class="mdl-textfield__label" for="b-base-of-trapezoid">b base of trapezoid (mm)</label>
             <span class="mdl-textfield__error">Input is not a number.</span>
           </div>
@@ -53,7 +53,7 @@
           <br />
           <label class="page-content">height: </label>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height-of-trapezoid" />
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-of-trapezoid" />
             <label class="mdl-textfield__label" for="height-of-trapezoid">height of trapezoid (mm)</label>
             <span class="mdl-textfield__error">Input is not a number.</span>
           </div>
